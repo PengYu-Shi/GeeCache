@@ -12,3 +12,11 @@
 ● 结合etcd的List+Watch机制，服务端可以高效、可靠的感知节点动态变化，实现毫秒级节点发现
 
 ● 设计数据持久化策略，实现节点热启动。解决由节点冷启动造成的大量缓存击穿与MySQL慢查询问题
+
+# How to use
+
+## What U Need：
+
+etcd
+
+GeeServer为服务器端，GeeNode为缓存节点
