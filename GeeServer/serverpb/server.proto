@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package serverpb;
+option go_package = "./";
+
+message Request{
+  string group = 1;
+  string key = 2;
+  string type = 3;
+}
+
+message Response{
+  bytes value = 1;
+  string err = 2;
+}
+
+service GeeServer{
+  rpc Get(Request) returns (Response);
+}
