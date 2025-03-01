@@ -13,12 +13,4 @@
 
 ● 设计数据持久化策略，实现节点热启动。解决由节点冷启动造成的大量缓存击穿与MySQL慢查询问题
 
-![image] https://github.com/PengYu-Shi/GeeCache/blob/main/%E7%BB%93%E6%9E%84.jpg
-
-# How to use
-
-## What U Need：
-
-etcd
-
-GeeServer为服务器端，GeeNode为缓存节点
+![image](https://github.com/PengYu-Shi/GeeCache/blob/main/%E7%BB%93%E6%9E%84.jpg)
